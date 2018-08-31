@@ -1,0 +1,144 @@
+@media only screen and (max-width : 1200px) 
+{
+    .navbar-right
+    {
+        padding: 1em 0px 0px 4em;
+    }
+    .header-text
+    {
+        font-size: 15px;
+        font-weight: 100 !important;
+        padding: 3em 4em 0em 0em;
+    }
+    .download-icons li img
+    {
+        padding-left: 30px;
+        margin-top:  40px;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) 
+{
+    .header-logo
+    {
+        width: 70%;
+    }
+    .great-snacks-heading
+    {
+        font-size: 20px;
+    }
+    .header-text
+    {
+        font-size: 12px;
+    }
+    .download-icons li img
+    {
+        padding-left: 20px;
+        margin-top:  40px;
+    }
+    #address p{
+        color: white;
+        padding-left: 6em;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) 
+{
+    .navbar-nav li a
+    {
+        font-size: 15px;
+        padding:0.5em;
+    }
+    .header-logo
+    {
+        margin-top: 0em;
+        width: 60%;
+    }
+    .header-text
+    {
+        text-align: center;
+        margin-left: 10%;
+    }
+    .great-snacks-heading
+    {
+        text-align: center;
+    }
+    .download-icons li img
+    {
+        padding-left: 0px;
+        margin-left: 18%;
+    }
+    .machine-img
+    {
+        margin-left: 15%;
+    }
+    .quality-row
+    {
+        text-align: center;
+    }
+    .update-form
+    {
+        margin-left: 0em;
+    }
+    #social-icons img
+    {
+        padding-left: 0px;
+        margin-left: 20%;
+    }
+    .white-logo
+    {
+        margin-left: 35%;
+    }
+    #address p{
+        margin-top: 3em;
+        margin-left: 10%;
+    }
+    .btn-default
+    {
+        margin-left: 45%;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) 
+{
+	.download-icons li img
+    {
+        padding-left: 0px;
+        margin-left: 13%;
+    }
+    .machine-img
+    {
+        margin:3em 0px 0px 0.5em;
+    }
+    .white-logo
+    {
+        margin-left: 20%;
+    }
+    #address p{
+        margin-top: 3em;
+        margin-left: -2em;
+    }
+    .btn-default
+    {
+        margin-left: 38%;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) 
+{
+
+}
+
+@media only screen and (min-width : 992px) 
+{
+    .download-icons li img
+    {
+        padding-left: 30px;
+        margin-top:  40px;
+    }
+}

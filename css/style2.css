@@ -1,0 +1,95 @@
+@font-face {
+    font-family: MyriadPro;
+    src: url(../fonts/myriad-pro-regular.ttf);
+    src: url(../fonts/myriad-pro-bold.ttf);
+    font-weight: bold;
+}
+body{
+	font-family: 'MyriadPro';
+}
+.logo-img
+{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 8em;
+
+}
+.info-text{
+	margin-top: 10em;
+	margin-right: 2em;
+}
+.info-text p{
+	color: #555555;
+	font-size: 14px;
+}
+.download-icons{
+	position: relative;
+    left: -12em;
+    bottom: -4em;
+	margin-left: 150px;
+	
+}
+.download-icons li{
+	list-style-type: none;
+	display: inline;
+	
+}
+.download-icons li img{
+	margin-left: 30px;
+	margin-top:  130px;
+}
+#menus{
+	margin-left:  23em;
+}
+#nav-menu li a {
+	position: relative;
+	list-style-type: none;
+	color: #010101;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	/*display: inline;*/
+	margin-right: 40px;
+}
+#machine-img{
+	margin-top: -1em;
+	margin-left: -3em;
+}
+#menu{
+	position: relative;
+	background-color: #fcdb00;
+}
+#footer{
+	background-color: #010101;
+}
+#social-icons img{
+	padding-left: 10px;
+}
+#address p{
+	color: #555555;
+	/*color: white;*/
+}
+#second-section-p{
+	font-size: 22px !important;
+	text-align: center;
+	color: #555555;
+}
+#second-section p{
+	font-size: 16px;
+	/*text-align: justify;*/
+	color: #555555;
+}
+#second-section h4{
+	margin-top: 10px;
+	font-weight: bold;
+}
+#email{
+	/*width: 400px;*/
+}
+/*@media screen and (min-width: 480px) {
+    #email {
+    	width: 350px;
+    }
+}*/
+
+    
