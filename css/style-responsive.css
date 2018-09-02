@@ -13,9 +13,16 @@
     .download-icons li img
     {
         padding-left: 30px;
-        margin-top:  40px;
+        margin-top:  110px;
     }
-
+    .navbar-right
+    {
+        margin-right: 0em;
+    }
+    .machine-img
+    {
+        margin:4em 0px 0px -2em;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -41,6 +48,15 @@
     #address p{
         color: white;
         padding-left: 6em;
+    }
+    .download-icons li img
+    {
+        padding-left: 20px;
+        margin-top:  100px;
+    }
+    .machine-img
+    {
+        margin:4em 0px 0px -7em;
     }
 }
 
@@ -73,7 +89,7 @@
     }
     .machine-img
     {
-        margin-left: 15%;
+        margin-left: 0%;
     }
     .quality-row
     {
@@ -100,6 +116,11 @@
     {
         margin-left: 45%;
     }
+    #address p
+    {
+        margin-top: 0em;
+        padding-left: 0px;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -107,24 +128,34 @@
 {
 	.download-icons li img
     {
-        padding-left: 0px;
-        margin-left: 13%;
+        padding-left: 0em;
+        margin-top: 1em;
+        margin-left: 0%;
     }
     .machine-img
     {
-        margin:3em 0px 0px 0.5em;
+        margin:12em 0px 0px 0em;
     }
     .white-logo
     {
         margin-left: 20%;
     }
     #address p{
-        margin-top: 3em;
-        margin-left: -2em;
+
+        margin-top: 0em;
+        margin-left: 0em;
     }
     .btn-default
     {
         margin-left: 38%;
+    }
+    #social-icons img
+    {
+        margin-left: 4.8em;
+    }
+    .white-logo
+    {
+        width: 80%;
     }
 }
 
@@ -134,11 +165,7 @@
 
 }
 
-@media only screen and (min-width : 992px) 
+@media only screen and (min-width : 480px) 
 {
-    .download-icons li img
-    {
-        padding-left: 30px;
-        margin-top:  40px;
-    }
+
 }
