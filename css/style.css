@@ -57,7 +57,10 @@ body{
 {
 	margin-top: 3.5em;
 }
-
+.vending-made-easy
+{
+	margin-top: 50px;
+}
 #second-section-p{
 	font-size: 18px !important;
 	text-align: center;

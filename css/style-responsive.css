@@ -121,6 +121,10 @@
         margin-top: 0em;
         padding-left: 0px;
     }
+    .vending-made-easy
+    {
+        margin-top: 0px;
+    }
 }
 
 /* Extra Small Devices, Phones */ 
@@ -156,6 +160,25 @@
     .white-logo
     {
         width: 80%;
+    }
+    .header-text
+    {
+        padding-bottom: 5em;
+        margin-left: 0%;
+        padding-right: 0px;
+        font-size: 11px;
+    }
+    .vending-made-easy
+    {
+        margin-top: 0px;
+    }
+    #second-section-p
+    {
+        font-size: 15px !important;
+    }
+    #second-section-p span
+    {
+        display: inline-block;
     }
 }
 
