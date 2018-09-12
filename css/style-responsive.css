@@ -23,6 +23,9 @@
     {
         margin:4em 0px 0px -2em;
     }
+    #address p{
+        margin-left: 2em;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -46,8 +49,7 @@
         margin-top:  40px;
     }
     #address p{
-        color: white;
-        padding-left: 6em;
+        padding-left: 0em;
     }
     .download-icons li img
     {
@@ -109,17 +111,11 @@
         margin-left: 35%;
     }
     #address p{
-        margin-top: 3em;
-        margin-left: 10%;
+        padding-left: 0em;
     }
     .btn-default
     {
         margin-left: 45%;
-    }
-    #address p
-    {
-        margin-top: 0em;
-        padding-left: 0px;
     }
     .vending-made-easy
     {
@@ -145,8 +141,6 @@
         margin-left: 20%;
     }
     #address p{
-
-        margin-top: 0em;
         margin-left: 0em;
     }
     .btn-default
@@ -188,7 +182,19 @@
 
 }
 
-@media only screen and (min-width : 480px) 
+@media only screen and (min-width : 479px) 
 {
+    /* #address p{
+        margin-left: 8em;
+    } */
+}
 
+@media only screen and (min-width : 767px) 
+{
+    #social-icons img
+    {
+        padding-left: 0px;
+        margin-left: 5%;
+    }
+    
 }
